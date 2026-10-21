@@ -1,0 +1,11 @@
+# OpenFOAM results: auto-generation with ./Allrun
+cases/*/0.[0-9]*/
+cases/*/[1-9]*/
+cases/*/constant/polyMesh/
+cases/*/log.*
+cases/*/postProcessing/
+cases/*/processor*/
+
+# Python
+__pycache__/
+*.pyc
